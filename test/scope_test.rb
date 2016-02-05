@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class ScopeTest < SearchCop::TestCase
@@ -52,4 +51,3 @@ class ScopeTest < SearchCop::TestCase
     refute_includes results, rejected
   end
 end
-

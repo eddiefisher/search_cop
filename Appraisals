@@ -17,4 +17,3 @@ appraise "4.2" do
   gem "activerecord", "~> 4.2.0.beta"
   gem "search_cop", :path => "../"
 end
-

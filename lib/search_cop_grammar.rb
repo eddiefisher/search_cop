@@ -1,4 +1,3 @@
-
 require "search_cop_grammar/attributes"
 require "search_cop_grammar/nodes"
 
@@ -142,4 +141,3 @@ module SearchCopGrammar
 
   class Value < BaseNode; end
 end
-

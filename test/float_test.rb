@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class FloatTest < SearchCop::TestCase
@@ -64,4 +63,3 @@ class FloatTest < SearchCop::TestCase
     end
   end
 end
-

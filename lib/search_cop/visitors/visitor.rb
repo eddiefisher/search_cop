@@ -1,4 +1,3 @@
-
 module SearchCop
   module Visitors
     class Visitor
@@ -101,4 +100,3 @@ module SearchCop
     end
   end
 end
-

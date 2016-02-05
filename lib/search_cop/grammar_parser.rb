@@ -1,4 +1,3 @@
-
 require "search_cop_grammar"
 require "treetop"
 
@@ -19,4 +18,3 @@ module SearchCop
     end
   end
 end
-

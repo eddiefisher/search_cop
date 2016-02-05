@@ -1,4 +1,3 @@
-
 require "search_cop"
 
 begin
@@ -165,4 +164,3 @@ class SearchCop::TestCase
     ActiveRecord::Base.connection.quote object
   end
 end
-

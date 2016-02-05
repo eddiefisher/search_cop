@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class ErrorTest < SearchCop::TestCase
@@ -14,4 +13,3 @@ class ErrorTest < SearchCop::TestCase
     end
   end
 end
-

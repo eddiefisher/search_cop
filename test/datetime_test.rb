@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class DatetimeTest < SearchCop::TestCase
@@ -79,4 +78,3 @@ class DatetimeTest < SearchCop::TestCase
     end
   end
 end
-

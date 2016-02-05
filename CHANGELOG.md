@@ -1,4 +1,3 @@
-
 # Changelog
 
 Version 1.0.6:
@@ -57,4 +56,3 @@ Version 0.0.2:
 * count() queries resulting in "Cannot visit AttrSearchableGrammar::Nodes..." fixed
 * Better error messages
 * Model#unsafe_search added
-

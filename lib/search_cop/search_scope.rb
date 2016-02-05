@@ -1,4 +1,3 @@
-
 module SearchCop
   class Reflection
     attr_accessor :attributes, :options, :aliases, :scope
@@ -59,4 +58,3 @@ module SearchCop
     end
   end
 end
-

@@ -1,4 +1,3 @@
-
 # AttrSearchable to SearchCop
 
 As the set of features of AttrSearchable grew and grew, it has been neccessary
@@ -83,4 +82,3 @@ Book.search_reflection(:search).options
 Book.search_reflection(:search).default_attributes
 Book.search_reflection(:search).aliases
 ```
-

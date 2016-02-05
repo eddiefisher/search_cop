@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class OrTest < SearchCop::TestCase
@@ -26,4 +25,3 @@ class OrTest < SearchCop::TestCase
     refute_includes results, product3
   end
 end
-

@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class SearchCopTest < SearchCop::TestCase
@@ -132,4 +131,3 @@ class SearchCopTest < SearchCop::TestCase
     assert_equal Product.all, Product.search("")
   end
 end
-

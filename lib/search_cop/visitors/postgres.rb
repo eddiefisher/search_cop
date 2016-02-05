@@ -1,4 +1,3 @@
-
 module SearchCop
   module Visitors
     module Postgres
@@ -36,4 +35,3 @@ module SearchCop
     end
   end
 end
-

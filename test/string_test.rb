@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class StringTest < SearchCop::TestCase
@@ -91,4 +90,3 @@ class StringTest < SearchCop::TestCase
     refute_includes Product.search("title <= 'Title A'"), product
   end
 end
-

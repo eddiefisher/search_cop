@@ -1,4 +1,3 @@
-
 class SearchCop::HashParser
   attr_reader :query_info
 
@@ -39,4 +38,3 @@ class SearchCop::HashParser
     end
   end
 end
-

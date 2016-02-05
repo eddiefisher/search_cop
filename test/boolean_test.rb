@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class BooleanTest < SearchCop::TestCase
@@ -50,4 +49,3 @@ class BooleanTest < SearchCop::TestCase
     end
   end
 end
-

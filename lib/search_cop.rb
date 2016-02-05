@@ -1,4 +1,3 @@
-
 require "search_cop/version"
 require "search_cop/search_scope"
 require "search_cop/query_info"
@@ -67,4 +66,3 @@ module SearchCop
     end
   end
 end
-

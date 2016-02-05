@@ -1,4 +1,3 @@
-
 # Contributing
 
 There are two ways to contribute: issues and pull requests.
@@ -15,4 +14,3 @@ The more detailed, the easier to reproduce. So please be verbose.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-

@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class FulltextTest < SearchCop::TestCase
@@ -24,4 +23,3 @@ class FulltextTest < SearchCop::TestCase
     refute_includes results, rejected
   end
 end
-

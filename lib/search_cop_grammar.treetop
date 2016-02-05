@@ -1,4 +1,3 @@
-
 grammar SearchCopGrammar
   rule complex_expression
     space? (boolean_expression / expression) space? <ComplexExpression>
@@ -52,4 +51,3 @@ grammar SearchCopGrammar
     [\s]+
   end
 end
-

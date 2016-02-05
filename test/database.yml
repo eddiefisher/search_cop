@@ -1,4 +1,3 @@
-
 sqlite:
   adapter: sqlite3
   database: ":memory:"
@@ -14,4 +13,3 @@ postgres:
   database: search_cop
   username: postgres
   encoding: utf8
-

@@ -1,4 +1,3 @@
-
 require File.expand_path("../test_helper", __FILE__)
 
 class VisitorTest < SearchCop::TestCase
@@ -98,4 +97,3 @@ class VisitorTest < SearchCop::TestCase
     assert_equal("(to_tsvector('english', \"products\".\"title\") @@ to_tsquery('english', '(''Query1'') | (''Query2'')'))", SearchCop::Visitors::Visitor.new(ActiveRecord::Base.connection).visit(node)) if ENV["DATABASE"] == "postgres"
   end
 end
-

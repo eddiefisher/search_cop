@@ -20,4 +20,3 @@ platforms :rbx do
   gem 'rubysl', '~> 2.0'
   gem 'psych'
 end
-
