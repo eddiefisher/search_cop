@@ -167,8 +167,18 @@ module SearchCopGrammar
     end
 
     class Integer < Float
+      def compatible?(value)
+        return true if value.to_s =~ /^null$/ || super
+
+        false
+      end
+
       def map(value)
-        value.to_i
+        if value.to_s =~ /^null$/
+          nil
+        else
+          value.to_i
+        end
       end
     end
 
