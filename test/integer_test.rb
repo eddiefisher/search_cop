@@ -63,5 +63,17 @@ class IntegerTest < SearchCop::TestCase
       Product.unsafe_search "stock: Value"
     end
   end
-end
 
+  def test_null
+    product = create(:product, :stock => nil)
+
+    assert_includes Product.where(stock: nil), product
+    assert_includes Product.search("stock = null"), product
+  end
+
+  def test_not_null
+    product = create(:product, :stock => 1)
+
+    assert_includes Product.search("stock != null"), product
+  end
+end
